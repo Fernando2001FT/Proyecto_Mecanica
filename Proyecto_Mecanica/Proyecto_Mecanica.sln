@@ -8,10 +8,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common\Common.csproj", "{77F4DA2C-6F0D-4FCB-B839-EC6CD1D4C68D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "..\Modelos\Modelos\Modelos.csproj", "{2BD7241B-8B9E-49D6-9A7E-D9E3FDDA25B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{40569960-0418-4656-8834-0775891AE617} = {40569960-0418-4656-8834-0775891AE617}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "..\Negocio\Negocio\Negocio.csproj", "{3AFC74DE-30A7-4C42-BA62-5AF414ACCBDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoMecanica.API", "..\ProyectoMecanica.API\ProyectoMecanica.API\ProyectoMecanica.API.csproj", "{25942C70-5817-45F9-8236-09F039E2D175}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2BD7241B-8B9E-49D6-9A7E-D9E3FDDA25B7} = {2BD7241B-8B9E-49D6-9A7E-D9E3FDDA25B7}
+		{77F4DA2C-6F0D-4FCB-B839-EC6CD1D4C68D} = {77F4DA2C-6F0D-4FCB-B839-EC6CD1D4C68D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

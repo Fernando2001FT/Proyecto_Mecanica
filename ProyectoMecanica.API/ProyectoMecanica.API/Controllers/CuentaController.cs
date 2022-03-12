@@ -7,7 +7,6 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Modelos;
 using Negocio.Repositorio;
-using ProyectoMecanica.API;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;

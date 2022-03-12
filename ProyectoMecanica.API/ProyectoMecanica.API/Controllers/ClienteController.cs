@@ -1,6 +1,4 @@
-﻿using AccesoData;
-using Common;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Modelos;
 using Negocio.Repositorio.IRepositorio;
@@ -32,7 +30,7 @@ namespace ProyectoMecanica.API.Controllers
             var resultado = await _clienteRepositorio.RegistrarCliente(registroclienteDTO);
 
 
-            return Ok(new RegistroUsuarioResponseDTO { RegistroSatisfactorio = true });
+            return Ok();
         }
         //[Authorize(Roles = Roles.Administrador)]
         [HttpGet]

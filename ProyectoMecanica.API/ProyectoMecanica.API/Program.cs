@@ -6,7 +6,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Negocio;
 using Negocio.Repositorio;
+using Negocio.Repositorio.IRepositorio;
 using ProyectoMecanica.API;
 using System.Text;
 
@@ -80,6 +82,9 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+builder.Services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
+builder.Services.AddScoped<IMecanicoRepositorio, MecanicoRepositorio>();
+builder.Services.AddScoped<IServicioMecanicoRepositorio, ServicioMecanicoRepositorio>();
 
 builder.Services.AddScoped<IInicializadorDB, InicializadorDB>();
 
