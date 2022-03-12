@@ -1,0 +1,12 @@
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\bin\Debug\net6.0\Modelos.deps.json
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\bin\Debug\net6.0\Modelos.dll
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\bin\Debug\net6.0\ref\Modelos.dll
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\bin\Debug\net6.0\Modelos.pdb
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\obj\Debug\net6.0\Modelos.csproj.AssemblyReference.cache
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\obj\Debug\net6.0\Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\obj\Debug\net6.0\Modelos.AssemblyInfoInputs.cache
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\obj\Debug\net6.0\Modelos.AssemblyInfo.cs
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\obj\Debug\net6.0\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\obj\Debug\net6.0\Modelos.dll
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\obj\Debug\net6.0\ref\Modelos.dll
+C:\Users\Tipan\Desktop\Proyecto_Mecanica\Modelos\Modelos\obj\Debug\net6.0\Modelos.pdb
